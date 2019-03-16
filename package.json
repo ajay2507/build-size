@@ -1,0 +1,16 @@
+{
+  "name": "lasso-bundle-size",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajaykumar Prathap",
+  "license": "ISC",
+  "dependencies": {
+    "bytes": "^3.1.0",
+    "lasso": "^3.2.9",
+    "prettycli": "^1.4.3"
+  }
+}
