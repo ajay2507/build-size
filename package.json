@@ -9,7 +9,9 @@
   "author": "Ajaykumar Prathap",
   "license": "ISC",
   "dependencies": {
+    "brotli-size": "^0.0.3",
     "bytes": "^3.1.0",
+    "gzip-size": "^5.0.0",
     "lasso": "^3.2.9",
     "prettycli": "^1.4.3"
   }
