@@ -1,7 +1,7 @@
 {
   "name": "lasso-bundle-size",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "Lasso Plugin to keep bundle size in check",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,10 +9,26 @@
   "author": "Ajaykumar Prathap",
   "license": "ISC",
   "dependencies": {
-    "brotli-size": "^0.0.3",
     "bytes": "^3.1.0",
-    "gzip-size": "^5.0.0",
     "lasso": "^3.2.9",
-    "prettycli": "^1.4.3"
+    "prettycli": "^1.4.3",
+    "brotli-size": "0.0.3",
+    "gzip-size": "5.0.0"
+  },
+  "keywords": [
+    "lasso",
+    "bundle",
+    "size-limit",
+    "bundle-size-plugin",
+    "build-time-check"
+  ],
+  "bundle-size-plugin": {
+    "minify": "gzip",
+    "js": {
+      "maxAssetSize": "150 kb"
+    },
+    "css": {
+      "maxAssetSize": "50 kb"
+    }
   }
 }

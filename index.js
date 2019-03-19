@@ -1,1 +1,1 @@
-module.exports = require('lib/bundle-size-plugin');
+module.exports = require('./lib/bundle-size-plugin');
