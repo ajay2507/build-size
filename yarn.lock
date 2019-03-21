@@ -83,7 +83,7 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-brotli-size@^0.0.3:
+brotli-size@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/brotli-size/-/brotli-size-0.0.3.tgz#1d3855b38f182591a6f69da1516131676e5f62f2"
   dependencies:
@@ -386,7 +386,7 @@ glob@^7.1.2:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-gzip-size@^5.0.0:
+gzip-size@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-5.0.0.tgz#a55ecd99222f4c48fd8c01c625ce3b349d0a0e80"
   dependencies:
@@ -504,6 +504,16 @@ isarray@~1.0.0:
 js-tokens@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
+
+lasso-bundle-size@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/lasso-bundle-size/-/lasso-bundle-size-1.1.1.tgz#4d6afcc57d20f0175dd96b497c1b57175e893e24"
+  dependencies:
+    brotli-size "0.0.3"
+    bytes "^3.1.0"
+    gzip-size "5.0.0"
+    lasso "^3.2.9"
+    prettycli "^1.4.3"
 
 lasso-caching-fs@^1.0.0, lasso-caching-fs@^1.0.1, lasso-caching-fs@^1.0.2:
   version "1.0.2"

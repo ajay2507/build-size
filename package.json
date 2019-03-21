@@ -1,6 +1,6 @@
 {
   "name": "lasso-bundle-size",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Lasso Plugin to keep bundle size in check",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,12 @@
   "author": "Ajaykumar Prathap",
   "license": "ISC",
   "dependencies": {
-    "bytes": "^3.1.0",
-    "lasso": "^3.2.9",
-    "prettycli": "^1.4.3",
     "brotli-size": "0.0.3",
-    "gzip-size": "5.0.0"
+    "bytes": "^3.1.0",
+    "gzip-size": "5.0.0",
+    "lasso": "^3.2.9",
+    "lasso-bundle-size": "^1.1.1",
+    "prettycli": "^1.4.3"
   },
   "keywords": [
     "lasso",
