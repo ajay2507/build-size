@@ -116,6 +116,10 @@ buffer@^5.1.0:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
 
+bundle-me@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/bundle-me/-/bundle-me-1.1.0.tgz#fbd63611d931853acb4d3a1c92d9ae5fb98fe554"
+
 bytes@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"

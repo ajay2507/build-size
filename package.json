@@ -8,12 +8,15 @@
   },
   "author": "Ajaykumar Prathap",
   "license": "ISC",
+  "bin": "lib/cli.js",
   "dependencies": {
     "brotli-size": "0.0.3",
+    "bundle-me": "^1.1.0",
     "bytes": "^3.1.0",
     "gzip-size": "5.0.0",
     "lasso": "^3.2.9",
     "lasso-bundle-size": "^1.1.1",
+    "minimist": "^1.2.0",
     "prettycli": "^1.4.3"
   },
   "keywords": [
@@ -23,7 +26,7 @@
     "bundle-size-plugin",
     "build-time-check"
   ],
-  "bundle-size-plugin": {
+  "bundle": {
     "minify": "gzip",
     "js": {
       "maxAssetSize": "150 kb"
