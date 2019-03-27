@@ -26,7 +26,7 @@
     "bundle-size-plugin",
     "build-time-check"
   ],
-  "bundle": {
+  "bundle-size-plugin": {
     "minify": "gzip",
     "js": {
       "maxAssetSize": "150 kb"
